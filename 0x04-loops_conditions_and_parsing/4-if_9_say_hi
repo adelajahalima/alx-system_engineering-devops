@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Say hi on the 9th loop
+
+d=1
+
+while [ $d -lt 11 ]
+do
+    echo "Best School"
+    if [ $d -eq 9 ]
+    then
+        echo "Hi"
+    fi
+    ((d++))
+done
